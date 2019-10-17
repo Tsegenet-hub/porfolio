@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Tsegent Porfolio</title>
+     <link rel="stylesheet" type="text/css" href="style.css" />
+     
+     <style>
+
+#name{
+    margin-left: 25%; 
+}
+
+
+#container{
+    margin:1% 25% 3% 25%; 
+    padding: 0% 2% 1% 2%;  
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 2px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #ff8080;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main {
+  border-radius: 5px;
+  padding-top: 20px;
+}
+      </style>
+
+   </head>
+	
+   <body >
+     <div id="header">
+      <div id="name" style="display:inline-block; ">
+          <h1> Tsegent</h1>
+      </div>
+      <div style="padding-left : 13%; display:inline-block">
+          
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      </div>
+
+    <br/>
+   
+
+      <div  id="container" style="">
+          <div>
+              <h2> Contact</h2>
+          </div>
+          <div style="border: 2px solid #d3d3d3;overflow: hidden; ">
+                
+          </div>
+          <div class="main"> 
+            <form action="index.html">
+
+                <label for="fname">Name</label>
+                <input type="text"  name="firstname" placeholder="John Smith">
+            
+                <label for="lname">Email</label>
+                <input type="text"  name="lastname" placeholder="example@gmail.com">
+            
+                <label for="message">Message</label>
+                <textarea name="subject" style="height:120px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form> 
+              
+          </div>
+
+      </div>
+
+    <!---- Footer-->
+    <div id="footer" style="  ">
+
+       <p style="color: white"> Copyright@</p>
+    </div>
+     
+   </body>
+	
+</html>
